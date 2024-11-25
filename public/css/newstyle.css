@@ -1,0 +1,99 @@
+td {
+    text-align: center;
+}
+
+.form-control-lg {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-label-lg {
+    font-size: 1.2rem;
+}
+
+.btn-custom {
+    width: 50%;
+}
+
+.btn-save {
+    width: 30%;
+}
+
+.btn-same-size {
+    height: calc(2.5rem + 2px); /* Adjust to match input height */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar nav.mt-auto {
+    margin-top: auto;
+}
+
+.main-sidebar {
+    background-color: #343a40; /* Dark gray background */
+}
+
+/* CSS untuk layout dashboard */
+.dashboard-content {
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    background-color: #f3f6f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .charts {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-activity, .notifications {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-activity ul, .notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-activity li, .notifications li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .recent-activity li:last-child, .notifications li:last-child {
+    border-bottom: none;
+  }
+
+  
